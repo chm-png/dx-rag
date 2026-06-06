@@ -1,0 +1,28 @@
+# Web Framework
+fastapi>=0.104.1,<0.105.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Vector Store (纯 Python，零编译依赖)
+numpy>=1.24.0
+
+# Embedding Model
+sentence-transformers>=2.2.2
+
+# PDF Processing
+PyMuPDF>=1.27.2
+pypdf2>=3.0.0
+
+# Word Processing
+python-docx>=1.0.0
+
+# Excel Processing
+openpyxl>=3.1.0
+
+# LLM API (含视觉模型，使用 DeepSeek 统一 Key)
+openai>=1.1.0,<2.0.0
+
+# Utilities
+aiofiles>=23.0.0
+python-dotenv>=1.0.0
+langchain-text-splitters>=0.2.0
